@@ -16,6 +16,10 @@ A compact project for irantimeline.
    ./install.sh
    ```
 
+### ⚠️ Note:
+- Ensure you have SSH access to GitHub (`git@github.com`) configured properly with your SSH key.  
+- Run `ssh -T git@github.com` to check if your SSH key is working. 🚀
+
 ---
 
 ## ایران تایم‌لاین با کراسه
@@ -31,3 +35,11 @@ A compact project for irantimeline.
    ```bash
    ./install.sh
    ```
+   
+### ⚠️ نکته:
+- مطمئن شوید که دسترسی SSH شما به گیت‌هاب (`git@github.com`) به درستی با کلید SSH شما تنظیم شده است.  
+- برای بررسی اتصال، این دستور را اجرا کنید:  
+  ```bash
+  ssh -T git@github.com
+  ```
+🚀
