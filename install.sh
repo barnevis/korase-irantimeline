@@ -23,11 +23,11 @@ cd ..
 # Clone the milestone repository into src/plugins/
 mkdir -p src/plugins
 cd src/plugins
-git clone git@github.com:barnevis/korase-milestone.git
-git clone git@github.com:barnevis/korase-neiltime.git
-git clone git@github.com:barnevis/korase-timeline.git
-git clone git@github.com:barnevis/korase-timetree.git
-git clone git@github.com:barnevis/korase-wikiIcon.git
+git clone https://github.com/barnevis/korase-milestone.git
+git clone https://github.com/barnevis/korase-neiltime.git
+git clone https://github.com/barnevis/korase-timeline.git
+git clone https://github.com/barnevis/korase-timetree.git
+git clone https://github.com/barnevis/korase-wikiIcon.git
 cd ../..
 
 # Create the .env file with required content
