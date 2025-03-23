@@ -5,11 +5,11 @@ set -e
 
 # Clone the main repository
 git clone https://github.com/barnevis/Korase.git
-cd Korase/templates/
+cd Korase/src/templates/
 
 # Clone the template repository
 git clone https://github.com/barnevis/KashkulTemplate.git
-cd ../docs/
+cd ../../docs/
 
 # Remove all existing files
 rm -rf *
@@ -33,7 +33,6 @@ cd ../..
 # Create the .env file with required content
 cat > .env <<EOL
 VITE_TEMPLATE_NAME=KashkulTemplate
-VITE_TEMPLATE_PATH=../../templates
 EOL
 
 # Install dependencies and start the project
